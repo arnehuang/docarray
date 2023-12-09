@@ -67,11 +67,11 @@ extra_css:
 plugins:
   - search
   - awesome-pages
-  - mkdocs-video:
-      is_video: True
-      video_autoplay: True
-      video_loop: True
-      video_muted: True
+#  - mkdocs-video: seems broken on my local but uncomment when making pr
+#      is_video: True
+#      video_autoplay: True
+#      video_loop: True
+#      video_muted: True
   - mkdocstrings:
       handlers:
         python:
@@ -100,6 +100,7 @@ nav:
           - user_guide/storing/docindex.md
           - user_guide/storing/index_in_memory.md
           - user_guide/storing/index_hnswlib.md
+          - user_guide/storing/index_epsilla.md
           - user_guide/storing/index_weaviate.md
           - user_guide/storing/index_elastic.md
           - user_guide/storing/index_qdrant.md
